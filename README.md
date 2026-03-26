@@ -8,6 +8,7 @@ Que.1 → C# Churros Order Management System
 Que.2 → C# Periodic Table Application  
 Que.3 → Python Client-Server Application (TCP + Database)  
 Que.4 → Python Web Scraping & CSV Processing  
+
 🧩 Task 1: Churros Order System (C#)
 ✔ Features:
 Menu-driven console application
@@ -21,6 +22,8 @@ Encapsulation
 Constructors
 Properties
 Queue (Data Structure)
+
+
 🧪 Task 2: Periodic Table (C#)
 ✔ Features:
 Stores first 30 elements
@@ -31,6 +34,8 @@ Loop-based interaction
 Dictionary (Data Structure)
 Classes & Objects
 User Input Handling
+
+
 🌐 Task 3: Client-Server Application (Python)
 ✔ Features:
 TCP-based communication
@@ -42,6 +47,8 @@ SQLite database integration
 socket (TCP communication)
 sqlite3 (database)
 uuid (unique ID generation)
+
+
 📊 Task 4: Web Scraping (Python)
 ✔ Features:
 Extracts book data from website
@@ -75,17 +82,20 @@ python server.py
 python client.py
 Task 4 (Python):
 python scraper.py
+
 📁 Output Files
 customers.db → Database (Task 3)
 books.csv → Scraped data (Task 4)
+
+
 🎯 Learning Outcomes
 Applied Object-Oriented Programming principles
 Implemented data structures effectively
 Built client-server architecture using TCP
 Worked with databases and persistent storage
 Performed web scraping and data processing
-👨‍💻 Author
 
+👨‍💻 Author
 Gokul Shiva Kumar
 
 📌 Notes
