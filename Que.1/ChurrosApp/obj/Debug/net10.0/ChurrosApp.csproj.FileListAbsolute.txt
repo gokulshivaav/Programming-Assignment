@@ -1,0 +1,14 @@
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\bin\Debug\net10.0\ChurrosApp.exe
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\bin\Debug\net10.0\ChurrosApp.deps.json
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\bin\Debug\net10.0\ChurrosApp.runtimeconfig.json
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\bin\Debug\net10.0\ChurrosApp.dll
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\bin\Debug\net10.0\ChurrosApp.pdb
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\obj\Debug\net10.0\ChurrosApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\obj\Debug\net10.0\ChurrosApp.AssemblyInfoInputs.cache
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\obj\Debug\net10.0\ChurrosApp.AssemblyInfo.cs
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\obj\Debug\net10.0\ChurrosApp.csproj.CoreCompileInputs.cache
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\obj\Debug\net10.0\ChurrosApp.dll
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\obj\Debug\net10.0\refint\ChurrosApp.dll
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\obj\Debug\net10.0\ChurrosApp.pdb
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\obj\Debug\net10.0\ChurrosApp.genruntimeconfig.cache
+C:\Users\gokul\Desktop\20097813\Que.1\ChurrosApp\obj\Debug\net10.0\ref\ChurrosApp.dll
