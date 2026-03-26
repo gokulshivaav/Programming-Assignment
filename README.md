@@ -59,8 +59,7 @@ csv (file handling)
 C#:
 .NET SDK
 Visual Studio Code
-Python:
-
+Pythos
 Install required libraries:
 
 pip install requests beautifulsoup4

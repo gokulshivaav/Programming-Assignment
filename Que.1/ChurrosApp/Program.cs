@@ -14,7 +14,7 @@ class Program
 
         while (true)
         {
-            Console.WriteLine("\n==============================");
+            Console.WriteLine("\n=============================");
             Console.WriteLine("     Delicious Churros");
             Console.WriteLine("==============================");
             Console.WriteLine("\n1. Place Order");
