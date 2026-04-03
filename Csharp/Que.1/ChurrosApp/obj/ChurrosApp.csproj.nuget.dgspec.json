@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gokul\\Desktop\\20097813\\Que.1\\ChurrosApp\\ChurrosApp.csproj": {}
+    "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\ChurrosApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gokul\\Desktop\\20097813\\Que.1\\ChurrosApp\\ChurrosApp.csproj": {
+    "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\ChurrosApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gokul\\Desktop\\20097813\\Que.1\\ChurrosApp\\ChurrosApp.csproj",
+        "projectUniqueName": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\ChurrosApp.csproj",
         "projectName": "ChurrosApp",
-        "projectPath": "C:\\Users\\gokul\\Desktop\\20097813\\Que.1\\ChurrosApp\\ChurrosApp.csproj",
+        "projectPath": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\ChurrosApp.csproj",
         "packagesPath": "C:\\Users\\gokul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gokul\\Desktop\\20097813\\Que.1\\ChurrosApp\\obj\\",
+        "outputPath": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gokul\\AppData\\Roaming\\NuGet\\NuGet.Config"

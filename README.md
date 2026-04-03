@@ -1,102 +1,134 @@
-Programming Assignment
-📌 Overview
+Programming Assignment – C# & Python Applications
 
-This repository contains solutions for a multi-part programming assignment covering C# Object-Oriented Programming and Python-based applications including client-server communication and web scraping.
+Overview
 
-📂 Project Structure
-Que.1 → C# Churros Order Management System  
-Que.2 → C# Periodic Table Application  
-Que.3 → Python Client-Server Application (TCP + Database)  
-Que.4 → Python Web Scraping & CSV Processing  
-
-🧩 Task 1: Churros Order System (C#)
-✔ Features:
-Menu-driven console application
-Order placement and delivery system
-Queue-based order handling (FIFO)
-Bill calculation
-Unit testing for billing functionality
-✔ Concepts Used:
-Classes & Objects
-Encapsulation
-Constructors
-Properties
-Queue (Data Structure)
+This repository contains the implementation of four programming tasks using **C# (.NET)** and **Python**. The project demonstrates concepts such as object-oriented programming, client-server communication, and web scraping, along with version control and CI/CD integration using GitHub Actions.
 
 
-🧪 Task 2: Periodic Table (C#)
-✔ Features:
-Stores first 30 elements
-User inputs atomic number
-Displays element details (Name, Class)
-Loop-based interaction
-✔ Concepts Used:
-Dictionary (Data Structure)
-Classes & Objects
-User Input Handling
+Project Structure
 
+20097813/
+│
+├── Csharp/
+│   ├── Que.1/   → Churros Ordering System
+│   └── Que.2/   → Periodic Table Application
+│
+├── Python/
+│   ├── Que.3/   → Client-Server Registration System
+│   └── Que.4/   → Web Scraper (Books Data)
+│
+├── .github/workflows/ → GitHub Actions (CI/CD)
+└── README.md
 
-🌐 Task 3: Client-Server Application (Python)
-✔ Features:
-TCP-based communication
-Client collects user data
-Server processes and stores data
-Unique registration ID generation
-SQLite database integration
-✔ Technologies Used:
-socket (TCP communication)
-sqlite3 (database)
-uuid (unique ID generation)
+Technologies Used
 
+* C# (.NET 8 / 10)
+* Python 3
+* Git & GitHub
+* GitHub Actions (CI/CD)
+* Libraries:
 
-📊 Task 4: Web Scraping (Python)
-✔ Features:
-Extracts book data from website
-Retrieves:
-Book Name
-Price
-Rating
-Stores data in CSV file
-Reads and displays CSV content
-✔ Technologies Used:
-requests (HTTP requests)
-BeautifulSoup (HTML parsing)
-csv (file handling)
-⚙️ Requirements
-C#:
-.NET SDK
-Visual Studio Code
-Pythos
-Install required libraries:
+  * requests
+  * beautifulsoup4
 
-pip install requests beautifulsoup4
-▶️ How to Run
-Task 1 & 2 (C#):
+How to Run the Project
+
+Task 1 – Churros Ordering System (C#)
+
+cd Csharp/Que.1/ChurrosApp
 dotnet run
-Task 3 (Python):
-# Terminal 1 (Server)
+
+✔ Displays menu
+✔ Allows order placement
+
+
+Task 2 – Periodic Table Application (C#)
+
+cd "Csharp/Que.2/Periodic Table"
+dotnet run
+
+✔ Accepts element name
+✔ Displays atomic details
+
+Task 3 – Client-Server System (Python)
+
+Start Server:
+
+cd Python/Que.3
 python server.py
 
-# Terminal 2 (Client)
+Start Client (new terminal):
+
+cd Python/Que.3
 python client.py
-Task 4 (Python):
+
+✔ Sends user details
+✔ Generates unique ID
+
+
+Task 4 – Web Scraper (Python)
+
+cd Python/Que.4
 python scraper.py
 
-📁 Output Files
-customers.db → Database (Task 3)
-books.csv → Scraped data (Task 4)
+✔ Extracts:
+* Book Name
+* Price
+* Rating
+
+✔ Saves data to:
+books.csv
+
+GitHub Actions (CI/CD)
+
+This project includes an automated workflow using GitHub Actions.
+
+Workflow Features:
+
+* Runs on every push
+* Builds C# Task 1
+* Executes Python scraper
+* Ensures code integrity
+
+✔ Status:
+
+All workflows passing successfully 
 
 
-🎯 Learning Outcomes
-Applied Object-Oriented Programming principles
-Implemented data structures effectively
-Built client-server architecture using TCP
-Worked with databases and persistent storage
-Performed web scraping and data processing
+Key Features
 
-👨‍💻 Author
+* Object-Oriented Programming in C#
+* Socket Programming (Client-Server)
+* Web Scraping using Python
+* File Handling (CSV)
+* Version Control using Git
+* CI/CD Pipeline Implementation
+
+Outputs
+
+* Console-based execution for all tasks
+* CSV file generated for scraped data
+* Server-client communication logs
+
+
+Conclusion
+
+This project successfully demonstrates:
+
+* Multi-language development (C# + Python)
+* Real-world application scenarios
+* Automated testing and deployment using GitHub Actions
+
+
+Author
+
 Gokul Shiva Kumar
+📍 Dublin, Ireland
+📧 gokulshivaav@gmail.com
 
-📌 Notes
-This project is developed for academic purposes
-All data from scraping website is for demonstration only
+ Notes
+
+* Ensure Python and .NET SDK are installed before running
+* Run server before client in Task 3
+* Internet connection required for web scraping
+

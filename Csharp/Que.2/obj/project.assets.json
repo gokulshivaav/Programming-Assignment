@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gokul\\Desktop\\20097813\\Que.2\\Que.2.csproj",
+      "projectUniqueName": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.2\\Que.2.csproj",
       "projectName": "Que.2",
-      "projectPath": "C:\\Users\\gokul\\Desktop\\20097813\\Que.2\\Que.2.csproj",
+      "projectPath": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.2\\Que.2.csproj",
       "packagesPath": "C:\\Users\\gokul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gokul\\Desktop\\20097813\\Que.2\\obj\\",
+      "outputPath": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gokul\\AppData\\Roaming\\NuGet\\NuGet.Config"
