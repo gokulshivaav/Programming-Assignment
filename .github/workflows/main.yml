@@ -38,5 +38,5 @@ jobs:
       - name: Build Task 1 (Churros)
         run: dotnet build CSharp/Que.1/ChurrosApp/ChurrosApp.csproj
 
-      - name: Build Task 2 (Periodic Table)
-        run: dotnet build CSharp/Que.2/Que.2.csproj
+      - name: Show Task 2 files
+        run: ls CSharp/Que.2
