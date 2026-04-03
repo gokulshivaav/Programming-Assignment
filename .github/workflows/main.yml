@@ -1,48 +1,38 @@
-name: Full Assignment Workflow
+name: Assignment Workflow
 
 on:
   push:
-  workflow_dispatch:
 
 jobs:
 
-  csharp-tasks:
-    name: Run C# Tasks
+  python-task:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+
+      - name: Install libraries
+        run: pip install requests beautifulsoup4
+
+      - name: Run Scraper (Task 4)
+        run: python Que.4/scraper.py
+
+  csharp-task:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
 
-      - name: Build Question 1
-        run: dotnet build Part_I_CSharp/Question_1
+      - name: Build Task 1
+        run: dotnet build Que.1
 
-      - name: Build Question 2
-        run: dotnet build Part_I_CSharp/Question_2
-
-  python-tasks:
-    name: Run Python Tasks
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install Libraries
-        run: pip install requests beautifulsoup4
-
-      - name: Run Web Scraper (Q4)
-        run: python Part_II_Python/Question_4/Que4.py
-
-      - name: Simulate Client-Server (Q3)
-        run: echo "Client-Server app requires manual execution"
+      - name: Build Task 2
+        run: dotnet build Que.2
