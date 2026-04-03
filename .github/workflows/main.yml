@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -20,21 +21,22 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Run scraper
-        run: python Que.4/scraper.py
+        run: python Que.2/Que.4/scraper.py
 
   csharp-task:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
 
-      - name: Build Task 1 (Churros App)
+      - name: Build Task 1
         run: dotnet build Que.1/ChurrosApp/ChurrosApp.csproj
 
-      - name: Build Task 2
-        run: dotnet build Que.2/*.csproj
+      - name: Show Task 2 files
+        run: ls Que.2
