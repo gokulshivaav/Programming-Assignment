@@ -35,8 +35,8 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Build Task 1 (Churros)
-        run: dotnet build CSharp/Que.1/ChurrosApp/ChurrosApp.csproj
+      - name: Build Task 1
+        run: dotnet build Csharp/Que.1/ChurrosApp/ChurrosApp.csproj
 
       - name: Show Task 2 files
-        run: ls CSharp/Que.2
+        run: ls Csharp/Que.2
