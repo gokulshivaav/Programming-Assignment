@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\ChurrosApp.csproj": {}
+    "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\ChurrosApp\\ChurrosApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\ChurrosApp.csproj": {
+    "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\ChurrosApp\\ChurrosApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\ChurrosApp.csproj",
+        "projectUniqueName": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\ChurrosApp\\ChurrosApp.csproj",
         "projectName": "ChurrosApp",
-        "projectPath": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\ChurrosApp.csproj",
+        "projectPath": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\ChurrosApp\\ChurrosApp.csproj",
         "packagesPath": "C:\\Users\\gokul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\churrosApp\\obj\\",
+        "outputPath": "C:\\Users\\gokul\\Desktop\\20097813\\Csharp\\Que.1\\ChurrosApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gokul\\AppData\\Roaming\\NuGet\\NuGet.Config"
