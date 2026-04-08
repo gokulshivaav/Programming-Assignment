@@ -11,7 +11,7 @@ print("Enter your details:")
 
 name = input("Name: ")
 address = input("Address: ")
-pps = input("PPS Number: ")
+pps = input("PPS No: ")
 license_doc = input("Driving License: ")
 
 data = f"{name},{address},{pps},{license_doc}"
